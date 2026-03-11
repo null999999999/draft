@@ -186,3 +186,41 @@ echo "环境准备完成"
 ```
 
 ### progress.txt 模板
+```
+=== Claude 工作日志 ===
+项目: [项目名称]
+开始时间: [YYYY-MM-DD]
+
+=== 会话 1 - [日期] ===
+目标: [本次会话目标]
+完成:
+- [完成项 1]
+- [完成项 2]
+遇到的问题:
+- [问题描述及解决方案]
+下次继续: [待办事项]
+
+Git commits:
+- [commit hash]: [commit message]
+```
+
+### features.json 示例
+```json
+{
+  "project": "MyProject",
+  "version": "1.0.0",
+  "features": [
+    {
+      "id": "feat-001",
+      "name": "功能名称",
+      "description": "功能详细描述",
+      "priority": "high",
+      "passes": false,
+      "tests": [
+        "测试用例1",
+        "测试用例2"
+      ]
+    }
+  ]
+}
+```
