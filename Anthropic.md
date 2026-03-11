@@ -83,10 +83,10 @@ git commit -m "feat: 实现用户登录功能
 2. **读取上下文信息**
    - 查看 `progress.txt` 了解历史工作
    - 运行 `git log --oneline -10` 查看最近提交
-   - 读取功能列表 JSON 文件
+   - 读取 `features.json`  文件领取任务
 
 3. **选择优先级最高的未完成功能**
-   - 在 JSON 中找到 `"passes": false` 的项
+   - 在 `features.json` 中找到 `"passes": false` 的项
    - 按 `priority` 字段排序
 
 4. **运行基础端到端验证**
@@ -183,8 +183,6 @@ echo "环境准备完成"
 ## Session: 2026-03-11 10:00 AM
 - [x] 重构 `user_auth.py` 改进错误处理
 - [x] 更新 `tests/auth_test.py` 单元测试
-- [ ] 实现 OAuth2 流程
-- 修改文件: src/user_auth.py, tests/auth_test.py
 - 下一步: 在 auth_service.py 中集成 OAuth2
 
 ## Session: 2026-03-10 03:00 PM
