@@ -180,8 +180,6 @@ echo "环境准备完成"
 ## Session: 2026-03-11 10:00 AM
 - [x] 重构 `user_auth.py` 改进错误处理
 - [x] 更新 `tests/auth_test.py` 单元测试
-- [ ] 实现 OAuth2 流程
-- 修改文件: src/user_auth.py, tests/auth_test.py
 - 下一步: 在 auth_service.py 中集成 OAuth2
 
 ## Session: 2026-03-10 03:00 PM
