@@ -179,3 +179,5 @@ git commit -m "feat: 实现功能名称
 - **禁止** 跳过 git commit
 - **禁止** 不更新 progress.txt
 - **禁止** 删除或重写 features.json 中的功能项
+- **禁止** 代码没有中文注释
+- **禁止** 会话不用中文回复
