@@ -1,6 +1,7 @@
 # 长时间运行 Agent 实践指南
 
 基于 Anthropic 工程团队的实践经验，本指南总结了如何构建能够跨多个对话会话持续工作的 AI 代理系统。
+原文链接: https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents
 
 ## 一、核心问题
 
